@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+body {
+    font-family: 'Mada', sans-serif;
+    color: white;
+    background-image: url("hotelroom.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mem-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.section {
+    box-shadow: 8px 8px 20px rgb(47, 44, 46);
+    background-color: rgba(46, 11, 11, 0.8);
+    padding: 2%;
+    margin: 3% 10%;
+    border-radius: 6px;
+    top: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid rgb(189, 48, 73);
+    width: 100%;
+}
+
+td, th {
+    height: 50px;
+    padding: 2%;
+    text-align: center;
+    border-bottom: 3px solid rgb(189, 48, 73);
+}
+
+tr:hover {
+    background-color: rgba(189, 48, 73, 0.38);
+}
+
+input {
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    padding: 1%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:hover {
+    background-color: rgba(189, 48, 73, 0.38);
+    color: white;
+}
+
+input:focus {
+    border: 2px solid rgb(189, 48, 73);
+}
+
+input[type="text"] {
+    padding: 2%;
+}
+
+input[type="email"] {
+    padding: 2%;
+}
+
+input[type="password"] {
+    padding: 2%;
+}
+
+input[type="button"] {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    padding: 5px;
+    color: white;
+    background-color: rgba(244, 72, 102, 0.38);
+}
+
+input[type="button"]:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type="button"]:focus {
+    border-color: white;
+}
+
+select {
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    padding: 1%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+select:focus {
+    border: 2px solid rgb(189, 48, 73);
+    background-color: rgba(244, 72, 102, 0.38);
+}
+
+select:hover {
+    border: 2px solid rgb(189, 48, 73);
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    padding: 5px;
+    color: white;
+    background-color: rgba(244, 72, 102, 0.38);
+}
+
+input[type="submit"]:focus {
+    border-color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
